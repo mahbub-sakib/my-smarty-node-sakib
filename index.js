@@ -18,6 +18,10 @@ const users = [
     { id: 5, name: 'wicked sick', email: 'wickedsick@gmail.com', phone: '123' }
 ]
 
+// app.get('/users', (req, res) => {
+//     res.send(users)
+// });
+
 app.get('/users', (req, res) => {
     // console.log('query', req.query);
     // res.send(users)
